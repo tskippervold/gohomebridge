@@ -1,0 +1,93 @@
+{
+  "bridge": {
+    "name": "GO",
+    "username": "CC:22:3D:E3:CE:30",
+    "port": 51826,
+    "pin": "40601014"
+  },
+  "accessories": [
+    {
+      "accessory": "c4",
+      "name": "Hallway Light",
+      "device_type": "light",
+      "proxy_id": "671",
+      "variable_ids": {
+        "level": "1001",
+        "state": "1000"
+      },
+      "base_url": "http://192.168.1.100:9000",
+      "refresh_interval": 2000
+    },
+    {
+      "accessory": "c4",
+      "name": "Bathroom Light",
+      "device_type": "light",
+      "proxy_id": "75",
+      "variable_ids": {
+        "level": "1001",
+        "state": "1000"
+      },
+      "base_url": "http://192.168.1.100:9000",
+      "refresh_interval": 2000
+    },
+    {
+      "accessory": "c4",
+      "name": "Kitchen Light",
+      "device_type": "light",
+      "proxy_id": "256",
+      "variable_ids": {
+        "level": "1001",
+        "state": "1000"
+      },
+      "base_url": "http://192.168.1.100:9000",
+      "refresh_interval": 2000
+    },
+    {
+      "accessory": "c4",
+      "name": "Living Room Window Light",
+      "device_type": "light",
+      "proxy_id": "245",
+      "variable_ids": {
+        "level": "1001",
+        "state": "1000"
+      },
+      "base_url": "http://192.168.1.100:9000",
+      "refresh_interval": 2000
+    },
+    {
+      "accessory": "c4",
+      "name": "Living Room Wall Light",
+      "device_type": "light",
+      "proxy_id": "84",
+      "variable_ids": {
+        "level": "1001",
+        "state": "1000"
+      },
+      "base_url": "http://192.168.1.100:9000",
+      "refresh_interval": 2000
+    },
+    {
+      "accessory": "c4",
+      "name": "Bedroom Light",
+      "device_type": "light",
+      "proxy_id": "215",
+      "variable_ids": {
+        "level": "1001",
+        "state": "1000"
+      },
+      "base_url": "http://192.168.1.100:9000",
+      "refresh_interval": 2000
+    },
+    {
+      "accessory": "c4",
+      "name": "Bathroom Fan",
+      "device_type": "fan",
+      "proxy_id": "205",
+      "variable_ids": {
+	      "state": "1000"
+      },
+      "base_url": "http://192.168.1.100:9000",
+      "refresh_interval": 2000
+    }
+  ]
+}

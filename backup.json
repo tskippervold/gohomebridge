@@ -1,0 +1,43 @@
+{
+      "accessory": "c4",
+      "name": "Bathroom Fan",
+      "device_type": "fan",
+      "proxy_id": "205",
+      "variable_ids": {
+	"state": "1000"
+      },
+      "base_url": "http://192.168.1.100:9000",
+      "refresh_interval": 2000
+    },
+    {
+    "accessory": "c4",
+    "name": "Bathroom Thermostat",
+    "device_type": "thermostat",
+    "proxy_id": "614",
+    "variable_ids": {
+      "current_state": "1107",
+      "target_state": "1104",
+      "current_temperature": "1130",
+      "heatpoint": "1132",
+      "coolpoint": "1134",
+      "unit": "1100"
+    },
+    "base_url": "http://192.168.1.100:9000",
+    "refresh_interval": 10000
+    },
+    {
+    "accessory": "c4",
+    "name": "Hallway Thermostat",
+    "device_type": "thermostat",
+    "proxy_id": "616",
+    "variable_ids": {
+      "current_state": "1107",
+      "target_state": "1104",
+      "current_temperature": "1130",
+      "heatpoint": "1132",
+      "coolpoint": "1134",
+      "unit": "1100"
+    },
+    "base_url": "http://192.168.1.100:9000",
+    "refresh_interval": 10000
+    }
